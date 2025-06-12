@@ -72,7 +72,7 @@ class SteamPriceApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Steam Price Checker")
-        self.setMinimumSize(800, 600)
+        self.setMinimumSize(10, 10)
         self.layout = QVBoxLayout()
         self.setLayout(self.layout)
 
